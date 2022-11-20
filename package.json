@@ -1,23 +1,22 @@
 {
   "name": "infrpg.js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "A library to interact with https://rpg.dart.gay/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm run gen_docs && cd infrpg.js && npm publish",
-    "gen_docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "DaInfLoop <mail@dainfloop.is-a.dev>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dainfloop/infrpg.js.git"
+  },
+  "homepage": "https://infrpg.js.org/",
+  "bugs": {
+    "url": "https://github.com/dainfloop/infrpg.js/issues"
+  },
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "express": "^4.18.2",
-    "jsdoc": "^4.0.0",
-    "minami": "^1.2.3",
-    "node-fetch": "^3.2.6",
-    "taffydb": "^2.7.3",
-    "undici": "^5.10.0"
+    "undici": "^5.11.0"
   }
 }
