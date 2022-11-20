@@ -1,0 +1,23 @@
+{
+  "name": "infrpg.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm run gen_docs && cd infrpg.js && npm publish",
+    "gen_docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.2",
+    "jsdoc": "^4.0.0",
+    "minami": "^1.2.3",
+    "node-fetch": "^3.2.6",
+    "taffydb": "^2.7.3",
+    "undici": "^5.10.0"
+  }
+}
